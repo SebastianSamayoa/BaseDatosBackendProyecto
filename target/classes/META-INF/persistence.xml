@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.analisis_Analisis.Backend_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.backend.entidades.Tipopescado</class>
+    <class>com.backend.entidades.Tipoacceso</class>
+    <class>com.backend.entidades.Usuarios</class>
+    <class>com.backend.entidades.Materiaprima</class>
+    <class>com.backend.entidades.Facturaproveedor</class>
+    <class>com.backend.entidades.Procesos</class>
+    <class>com.backend.entidades.Calidadproducto</class>
+    <class>com.backend.entidades.Controllote</class>
+    <class>com.backend.entidades.Ctringresomateriaprima</class>
+    <class>com.backend.entidades.Productosenviados</class>
+    <class>com.backend.entidades.Facturaloteproveedor</class>
+    <class>com.backend.entidades.Proveedores</class>
+    <class>com.backend.entidades.Contrasenapago</class>
+    <class>com.backend.entidades.Detalleingresomateriaprima</class>
+    <class>com.backend.entidades.Producto</class>
+    <class>com.backend.entidades.Estados</class>
+    <class>com.backend.entidades.Controllotedet</class>
+    <class>com.backend.entidades.Ctrgestiones</class>
+    <class>com.backend.entidades.Detallevencimientos</class>
+    <class>com.backend.entidades.Detallegestion</class>
+    <class>com.backend.entidades.Notificadores</class>
+    <class>com.backend.entidades.Tiposmotivos</class>
+    <class>com.backend.entidades.Ctrautorizaciones</class>
+    <class>com.backend.entidades.Tarjetadevoluciondet</class>
+    <class>com.backend.entidades.Tarjetadevolucion</class>
+    <class>com.backend.entidades.Tiposgestiones</class>
+    <class>com.backend.entidades.Autorizaciones</class>
+    <class>com.backend.entidades.Ctrvencimientos</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="Analisis"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="1234"/>
+    </properties>
+  </persistence-unit>
+</persistence>
